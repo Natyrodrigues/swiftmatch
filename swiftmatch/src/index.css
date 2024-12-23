@@ -1,0 +1,20 @@
+/* src/index.css */
+
+html, body {
+  height: 100%;
+  margin: 0; /* Remove margens padrão */
+  color: #f5d5d5; /* Cor do texto */
+  display: flex; /* Usar flexbox para centralizar o conteúdo */
+  flex-direction: column; /* Colocar os itens em uma coluna */
+  justify-content: center; /* Alinhar os itens verticalmente ao centro */
+  align-items: center; /* Alinhar os itens horizontalmente ao centro */
+  font-family: Georgia, serif;
+}
+
+#root {
+  display: flex; /* Usar flexbox para o conteúdo dentro de #root */
+  justify-content: center; /* Alinhar o conteúdo do root ao centro */
+  align-items: center; /* Alinhar o conteúdo do root ao centro */
+  width: 85%;
+}
+
